@@ -1,6 +1,13 @@
+# ROR Bignner App
+### How To Start
+git clone git@github.com:assohail/ror_starter.git
+cd ror_starter
+bundle install
+raila db:create
+raila db:migrate
+rails s
 
-
-## Gems 
+### Gems 
 ```
 bundle add faker
 bundle add kaminari
