@@ -1,0 +1,62 @@
+<h1>Articles</h1>
+
+Our blog has <%= Article.public_count %> articles and counting!
+
+
+<%# paginate %>
+<h1>Articles - Page <%= params[:page] %></h1>
+
+<% @articles.each do |article| %>
+  <!-- Display article content -->
+<% end %>
+
+<%= paginate @articles_ten %>
+
+
+
+<ul>
+  <% @articles.each do |article| %>
+    <% unless article.archived? %>
+      <li>
+        <%= link_to article.title, article %>
+      </li>
+    <% end %>
+  <% end %>
+</ul>
+
+<%= link_to "New Article", new_article_path %>
+
+<br>
+
+<h3>Specific Articles</h3>
+<% @specific_articles.each do |article| %>
+  <p><%= link_to article.title, article %></p>
+<%end%>
+
+<br>
+
+<h3>Short Articles</h3>
+<% @short_reading.each do |article| %>
+  <p><%= link_to article.title, article %></p>
+<%end%>
+
+<br>
+
+<h3>Public Articles</h3>
+<% @public_articles.each do |article| %>
+  <p><%= link_to article.title, article %></p>
+<%end%>
+
+<br>
+
+<h3>Private Articles</h3>
+<% @private_articles.each do |article| %>
+  <p><%= link_to article.title, article %></p>
+<%end%>
+
+<br>
+
+<h3>Archived Articles</h3>
+<% @archived_articles.each do |article| %>
+  <p><%= link_to article.title, article %></p>
+<%end%>
