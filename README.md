@@ -16,7 +16,7 @@ Follow the step-by-step instructions in this guide to set up **ROR_STARTER**. Wh
 git clone git@github.com:assohail/ror_starter.git
 cd ror_starter
 ```
-- 🔄 Change the default db name (if you want) and credentials 
+🔄 Change the default db name (if you want) and credentials 
 ```
 bundle install
 rails db:create
