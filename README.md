@@ -16,7 +16,7 @@ Follow the step-by-step instructions in this guide to set up **ROR_STARTER**. Wh
 git clone git@github.com:assohail/ror_starter.git
 cd ror_starter
 ```
-- change the default db name (if you want) and credentials 
+- 🔄 Change the default db name (if you want) and credentials 
 ```
 bundle install
 rails db:create
@@ -35,6 +35,6 @@ bundle add rspec-rails
 ```
 
 ### Contribute
-Feel free to contribute to the development of ROR_STARTER APP by submitting bug reports, feature requests, or even pull requests.
+Feel free to contribute to the development of **ROR_STARTER** by submitting bug reports, feature requests, or even pull requests.
 
 Happy coding! 🎉
