@@ -9,7 +9,7 @@
 - **RESTful Design:** Learn the basics of designing your application following RESTful principles, ensuring a standardized and efficient API.
 - **Code Generation:** Utilize Rails generators to quickly generate the initial components of your application, saving you time and effort.
 
-### Getting Started
+### Getting Started .
 Follow the step-by-step instructions in this guide to set up **ROR_STARTER**. Whether you're a beginner or an experienced developer, this application provides a solid foundation for your web projects.
 
 ```
